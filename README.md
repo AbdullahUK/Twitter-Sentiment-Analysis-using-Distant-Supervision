@@ -3,8 +3,8 @@ Twitter is a popular microblogging service where users create status messages ca
 # Approach 
 Our approach is to use different machine learning classifiers and feature extractors as well as Artificial Neural Networks (ANN). The machine learning classifiers are Logistic Regression, Naive Bayes,, Multinomial NB, Ridge Classifier, Passive-Aggressive Classifier and Support Vector Machines (SVM). The Artificial Neural Network is used along with Tfidf vectorizer The feature extractors are unigrams, bigrams and trigrams. We built a framework that treats classifiers and feature extractors as two distinct components.
 # Dataset Description 
-<a href="https://www.kaggle.com/kazanova/sentiment140/version/1">English dataset</a>
-<a href="https://drive.google.com/open?id=1TNaUswMaVMhkWTEdNpeRBVwbizi6uKyZ">Arabic dataset</a>
+<a href="https://www.kaggle.com/kazanova/sentiment140/version/1">English dataset</a> </br>
+<a href="https://drive.google.com/open?id=1TNaUswMaVMhkWTEdNpeRBVwbizi6uKyZ">Arabic dataset</a> </br>
 0 — the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)</br>
 1 — the id of the tweet (2087)</br>
 2 — the date of the tweet (Sat May 16 23:58:44 UTC 2009)</br>
